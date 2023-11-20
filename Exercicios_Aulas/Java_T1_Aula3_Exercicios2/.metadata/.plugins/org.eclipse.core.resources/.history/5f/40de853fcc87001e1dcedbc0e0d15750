@@ -1,0 +1,23 @@
+package exerciciosDeDados;
+
+import java.util.Date;
+
+public class classeEstudante {
+	private
+	String nome;
+	Date DataNascimento;
+	String cpf;
+	
+	DataNascimento = new Date();
+	
+	public classeEstudante(String nome, Date dataNascimento, String cpf) {
+		super();
+		this.nome = nome;
+		DataNascimento = dataNascimento;
+		this.cpf = cpf;
+	}
+	
+	
+	
+	
+}

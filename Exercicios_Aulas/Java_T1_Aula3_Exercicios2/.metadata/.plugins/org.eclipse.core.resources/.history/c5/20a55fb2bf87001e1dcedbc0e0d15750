@@ -1,0 +1,19 @@
+package exerciciosDeDados;
+
+public class dadosTrocaVariavel {
+	public static void main(String[] args) {
+		int a, b, temp;
+		a = 3;
+		b = 5;
+		temp = b;
+		b = a;
+		a = temp;
+		System.out.println("A troca, então fica: " + a + " " + b);
+		
+		a = a ^ b;
+		b = b ^ a;
+		a = a ^ b;
+		System.out.println("A segunda troca, então fica: " + a + " " + b);
+
+	}
+}
